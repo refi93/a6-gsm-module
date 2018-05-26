@@ -1,0 +1,6 @@
+serial_port='/dev/ttyUSB0'
+senders_whitelist = [
+    '+421904888888'
+]
+sim_card_pin = None
+geocode_api_key = 'google api key'
