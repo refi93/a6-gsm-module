@@ -147,7 +147,7 @@ def load_phonebook_from_file(filename='contacts.json'):
             'AT+CPBW=',
             str(entry['id']),
             ',\"', entry['number'], '\",',
-            str(entry['type'] + 1 if entry['type'] % 2 == 0 else entry['type']),
+            str(entry['type'] + 1 if entry['type'] mod 2 == 0 else entry['type']),
             ',\"', entry['name'].replace(';/O\"', '').replace('/M\"', '').replace(';', ' ').replace('\"',''), '\"'
         ))))
         print(entry['id'])

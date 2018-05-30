@@ -1,0 +1,3 @@
+serial_port='/dev/ttyUSB0'
+sim_card_pin = None
+geocode_api_key = 'google api key'
